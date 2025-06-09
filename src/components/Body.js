@@ -14,7 +14,6 @@ const Body = () => {
 
   const ResCardDiscount = withDiscount(RestaurantCard);
 
-  console.log("Body Rendered");
 
   const { loggedInUser, setUserName } = useContext(UserContext);
 

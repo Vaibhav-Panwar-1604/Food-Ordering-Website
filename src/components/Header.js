@@ -10,7 +10,6 @@ const Header = () => {
   const data = useContext(UserContext);
 
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
   
 
   return (
