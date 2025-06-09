@@ -679,60 +679,78 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const About = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+const About = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "min-h-screen bg-gradient-to-br from-green-50 to-white p-8",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "max-w-3xl mx-auto bg-white rounded-2xl shadow-2xl p-8 animate-fade-in-up",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "text-4xl font-bold text-green-700 mb-4 border-b pb-2 animate-fade-in-up",
+                    className: "text-4xl font-bold text-green-700 mb-4 border-b pb-2",
                     children: "About"
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 7,
-                    columnNumber: 9
+                    lineNumber: 6,
+                    columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "text-xl font-semibold text-gray-800 mb-6 animate-fade-in-up",
+                    className: "text-xl font-semibold text-gray-800 mb-6",
                     children: "Welcome to My React Food Ordering Website \uD83C\uDF55"
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 10,
-                    columnNumber: 9
+                    lineNumber: 9,
+                    columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-gray-700 text-lg leading-relaxed mb-4 animate-fade-in-up",
+                    className: "text-gray-700 text-lg leading-relaxed mb-4",
                     children: [
-                        "This project is a fully dynamic and responsive food ordering application built with",
+                        "This project is a fully dynamic and responsive food ordering application built completely from scratch using",
                         " ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                             className: "text-green-600",
                             children: "React.js"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 17,
-                            columnNumber: 11
-                        }, undefined),
-                        " and styled using",
-                        " ",
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                            className: "text-green-600",
-                            children: "Tailwind CSS"
-                        }, void 0, false, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 18,
-                            columnNumber: 11
-                        }, undefined),
-                        ". It showcases real-world features you'd expect from a modern food delivery platform."
+                            lineNumber: 16,
+                            columnNumber: 9
+                        }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/About.js",
-                    lineNumber: 14,
-                    columnNumber: 9
+                    lineNumber: 13,
+                    columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-gray-700 text-lg leading-relaxed mb-4 animate-fade-in-up",
+                    className: "text-gray-700 text-lg leading-relaxed mb-4",
+                    children: [
+                        "\uD83D\uDCBB I wrote and executed all test cases by hand\u2014using",
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                            className: "text-green-600",
+                            children: "Jest"
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 21,
+                            columnNumber: 9
+                        }, undefined),
+                        " and",
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                            className: "text-green-600",
+                            children: "React Testing Library"
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 22,
+                            columnNumber: 9
+                        }, undefined),
+                        "\u2014to ensure reliability of UI components, reducer logic, and app flows."
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/About.js",
+                    lineNumber: 19,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-gray-700 text-lg leading-relaxed mb-4",
                     children: [
                         "\uD83E\uDDE0 ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
@@ -740,135 +758,147 @@ const About = ()=>{
                             children: "Redux"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 23,
-                            columnNumber: 14
+                            lineNumber: 27,
+                            columnNumber: 12
                         }, undefined),
-                        " is used to manage the global state of the application\u2014especially for cart operations\u2014ensuring efficient state updates and scalability."
+                        " manages global state\u2014especially the cart\u2014ensuring stable and testable data flow."
                     ]
                 }, void 0, true, {
                     fileName: "src/components/About.js",
-                    lineNumber: 22,
-                    columnNumber: 9
+                    lineNumber: 26,
+                    columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-gray-700 text-lg leading-relaxed mb-4 animate-fade-in-up",
+                    className: "text-gray-700 text-lg leading-relaxed mb-4",
                     children: [
-                        "\uD83D\uDCE1 All restaurant data is fetched live from",
+                        "\uD83D\uDCE1 Live restaurant data is fetched from",
                         " ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                             className: "text-green-600",
                             children: "Swiggy\u2019s public API"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 30,
-                            columnNumber: 11
+                            lineNumber: 33,
+                            columnNumber: 9
                         }, undefined),
-                        ", which means users always get the latest listings available in their city."
+                        ", so listings are always up\u2011to\u2011date."
                     ]
                 }, void 0, true, {
                     fileName: "src/components/About.js",
-                    lineNumber: 28,
-                    columnNumber: 9
+                    lineNumber: 31,
+                    columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-gray-700 text-lg leading-relaxed mb-4 animate-fade-in-up",
+                    className: "text-gray-700 text-lg leading-relaxed mb-4",
                     children: [
-                        "\uD83D\uDED2 Users can",
-                        " ",
+                        "\uD83D\uDED2 Users can ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                             className: "font-semibold text-green-700",
-                            children: "add or remove items from their cart"
+                            children: "add or remove"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 36,
-                            columnNumber: 11
+                            lineNumber: 38,
+                            columnNumber: 22
                         }, undefined),
-                        ", making the user experience more interactive and practical\u2014just like real-world food apps."
+                        " items from the cart\u2014mirroring real-world food apps."
                     ]
                 }, void 0, true, {
                     fileName: "src/components/About.js",
-                    lineNumber: 34,
-                    columnNumber: 9
+                    lineNumber: 37,
+                    columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    className: "text-lg font-semibold text-gray-800 mt-6 mb-2 animate-fade-in-up",
+                    className: "text-lg font-semibold text-gray-800 mt-6 mb-2",
                     children: "\uD83D\uDD11 Key Features:"
                 }, void 0, false, {
                     fileName: "src/components/About.js",
-                    lineNumber: 43,
-                    columnNumber: 9
+                    lineNumber: 41,
+                    columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    className: "list-disc list-inside text-gray-700 text-lg mb-4 animate-fade-in-up",
+                    className: "list-disc list-inside text-gray-700 text-lg mb-4",
                     children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Fully custom build (no CRA/Vite) with Babel & bundler"
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 45,
+                            columnNumber: 9
+                        }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Live restaurant data via Swiggy API"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 47,
-                            columnNumber: 11
+                            lineNumber: 46,
+                            columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Dynamic routing using React Router"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
-                            lineNumber: 48,
-                            columnNumber: 11
+                            lineNumber: 47,
+                            columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Reusable and conditional components"
+                            children: "Conditional & reusable components"
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
+                            lineNumber: 48,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Search & filter functionality"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
                             lineNumber: 49,
-                            columnNumber: 11
+                            columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Search and filter functionality"
+                            children: "Context API & Redux for user & cart state"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
                             lineNumber: 50,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Context API and Redux for user & cart state"
-                        }, void 0, false, {
-                            fileName: "src/components/About.js",
-                            lineNumber: 51,
-                            columnNumber: 11
+                            columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Offline detection using a custom hook"
                         }, void 0, false, {
                             fileName: "src/components/About.js",
+                            lineNumber: 51,
+                            columnNumber: 9
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Manual testing with Jest & React Testing Library"
+                        }, void 0, false, {
+                            fileName: "src/components/About.js",
                             lineNumber: 52,
-                            columnNumber: 11
+                            columnNumber: 9
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/About.js",
-                    lineNumber: 46,
-                    columnNumber: 9
+                    lineNumber: 44,
+                    columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "text-gray-700 text-lg leading-relaxed animate-fade-in-up",
-                    children: "This app was developed to improve frontend architecture skills, explore real-time APIs, and implement scalable state management using Redux. It\u2019s responsive, beginner-friendly, and demonstrates real-world React development."
+                    className: "text-gray-700 text-lg leading-relaxed",
+                    children: "This app sharpened my frontend engineering skills by building infrastructure manually, writing tests from the ground up, and implementing best practices for React, state management, and architecture."
                 }, void 0, false, {
                     fileName: "src/components/About.js",
                     lineNumber: 55,
-                    columnNumber: 9
+                    columnNumber: 7
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/About.js",
-            lineNumber: 6,
-            columnNumber: 7
+            lineNumber: 5,
+            columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/About.js",
-        lineNumber: 5,
-        columnNumber: 5
+        lineNumber: 4,
+        columnNumber: 3
     }, undefined);
-};
 _c = About;
 exports.default = About;
 var _c;
