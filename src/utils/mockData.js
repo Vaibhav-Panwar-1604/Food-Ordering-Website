@@ -1,1707 +1,1738 @@
-const resList = [
+export const resList = [
     {
-      info: {
-        id: "136238",
-        name: "Pizza Hut",
-        cloudinaryImageId:
-          "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/17/2097353f-18ae-4c21-906c-82f6d68df2a4_136238.jpg",
-        locality: "Delhi Road",
-        areaName: "Rohtak",
-        costForTwo: "₹350 for two",
-        cuisines: ["Pizzas"],
-        avgRating: 4.1,
-        parentId: "721",
-        avgRatingString: "4.1",
-        totalRatingsString: "1.7K+",
-        sla: {
-          deliveryTime: 23,
-          lastMileTravel: 1.3,
-          serviceability: "SERVICEABLE",
-          slaString: "20-25 mins",
-          lastMileTravelString: "1.2 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
-              description: "Delivery!",
+        "info": {
+            "id": "253843",
+            "name": "Kwality Walls Ice Cream and More",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/13/6250d093-c9c5-4068-a191-a7393e3b0255_253843.JPG",
+            "locality": "SCO 2446",
+            "areaName": "East Chd",
+            "costForTwo": "₹100 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts",
+                "Ice Cream Cakes"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "582",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "3.8K+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 1.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "1.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              imageId: "Rxawards/_CATEGORY-Pizza.png",
-              description: "Delivery!",
+            "availability": {
+                "nextCloseTime": "2025-06-10 00:15:00",
+                "opened": true
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Rxawards/_CATEGORY-Pizza.png",
-                  },
-                },
-              ],
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "ITEMS",
-          subHeader: "AT ₹189",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/pizza-hut-delhi-road-rohtak-rest136238",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/kwality-walls-ice-cream-and-more-sco-2446-east-chd-rest253843",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "298334",
-        name: "Domino's Pizza",
-        cloudinaryImageId:
-          "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/13/361f51a3-cf60-4ab2-9f09-a3a767b88fd8_298334.JPG",
-        locality: "JOP Square Mall",
-        areaName: "Rohtak",
-        costForTwo: "₹400 for two",
-        cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
-        avgRating: 4.2,
-        parentId: "2456",
-        avgRatingString: "4.2",
-        totalRatingsString: "1.2K+",
-        sla: {
-          deliveryTime: 25,
-          lastMileTravel: 1.7,
-          serviceability: "SERVICEABLE",
-          slaString: "20-25 mins",
-          lastMileTravelString: "1.7 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
-              description: "Delivery!",
+        "info": {
+            "id": "675103",
+            "name": "Theobroma",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/e3d4fbdb-55d6-45e3-a473-643c308036e7_675103.jpg",
+            "locality": "SCO 430",
+            "areaName": "Sector 35 C",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "1040",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "1.1K+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              imageId: "Rxawards/_CATEGORY-Pizza.png",
-              description: "Delivery!",
+            "availability": {
+                "nextCloseTime": "2025-06-10 01:30:00",
+                "opened": true
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Rxawards/_CATEGORY-Pizza.png",
-                  },
-                },
-              ],
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                        "description": "Delivery!"
+                    },
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "ITEMS",
-          subHeader: "AT ₹89",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/dominos-pizza-jop-square-mall-rohtak-rest298334",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/theobroma-sco-430-sector-35-c-rest675103",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "364939",
-        name: "LunchBox - Meals and Thalis",
-        cloudinaryImageId:
-          "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/1/0efee599-b9a3-4e73-aeed-98d61338ac06_364939.jpg",
-        locality: "Mansarover Colony",
-        areaName: "Rohtak",
-        costForTwo: "₹200 for two",
-        cuisines: [
-          "Biryani",
-          "North Indian",
-          "Punjabi",
-          "Healthy Food",
-          "Desserts",
-          "Beverages",
-        ],
-        avgRating: 4.5,
-        parentId: "4925",
-        avgRatingString: "4.5",
-        totalRatingsString: "329",
-        sla: {
-          deliveryTime: 17,
-          lastMileTravel: 0.9,
-          serviceability: "SERVICEABLE",
-          slaString: "15-20 mins",
-          lastMileTravelString: "0.8 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Thali.png",
-              description: "Delivery!",
+        "info": {
+            "id": "41298",
+            "name": "KFC",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/0952e937-f7ad-4d0f-a369-168bfb3991d6_41298.JPG",
+            "locality": "Sector 34",
+            "areaName": "Sector 34",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Burgers",
+                "Fast Food",
+                "Rolls & Wraps"
+            ],
+            "avgRating": 4.4,
+            "parentId": "547",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "5.5K+",
+            "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Thali.png",
-                  },
+            "availability": {
+                "nextCloseTime": "2025-06-10 01:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Burger.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹59"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.3",
+                    "ratingCount": "2.1K+"
                 },
-              ],
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "50% OFF",
-          subHeader: "UPTO ₹80",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/lunchbox-meals-and-thalis-mansarover-colony-rohtak-rest364939",
-        type: "WEBLINK",
-      },
-    },
-  
-    {
-      info: {
-        id: "511393",
-        name: "Bakingo",
-        cloudinaryImageId:
-          "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/5/4ec9aaac-7a63-432f-b626-0a866a65b63e_511393.JPG",
-        locality: "Sector 14",
-        areaName: "Rohtak",
-        costForTwo: "₹299 for two",
-        cuisines: ["Bakery", "Desserts", "Beverages", "Snacks"],
-        avgRating: 4.7,
-        parentId: "3818",
-        avgRatingString: "4.7",
-        totalRatingsString: "2.3K+",
-        sla: {
-          deliveryTime: 27,
-          lastMileTravel: 4,
-          serviceability: "SERVICEABLE",
-          slaString: "25-30 mins",
-          lastMileTravelString: "4.0 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Desserts.png",
-              description: "Delivery!",
-            },
-            {
-              imageId: "Rxawards/_CATEGORY-Desserts.png",
-              description: "Delivery!",
-            },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Desserts.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Rxawards/_CATEGORY-Desserts.png",
-                  },
-                },
-              ],
-            },
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        aggregatedDiscountInfoV3: {
-          header: "50% OFF",
-          subHeader: "UPTO ₹80",
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/bakingo-sector-14-rohtak-rest511393",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/kfc-sector-34-rest41298",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "128699",
-        name: "Baithak Cafe",
-        cloudinaryImageId: "r9pvamrsjjcgtdkor9y2",
-        locality: "Arya Nagar Chowk",
-        areaName: "Arya Nagar",
-        costForTwo: "₹200 for two",
-        cuisines: [
-          "Italian",
-          "Chinese",
-          "Beverages",
-          "Continental",
-          "Pizzas",
-          "Pastas",
-          "Snacks",
-          "Fast Food",
-          "Burgers",
-        ],
-        avgRating: 4.1,
-        veg: true,
-        parentId: "39729",
-        avgRatingString: "4.1",
-        totalRatingsString: "9.9K+",
-        sla: {
-          deliveryTime: 18,
-          lastMileTravel: 0.4,
-          serviceability: "SERVICEABLE",
-          slaString: "15-20 mins",
-          lastMileTravelString: "0.4 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Pure%20Veg.png",
-              description: "Delivery!",
+        "info": {
+            "id": "254108",
+            "name": "McDonald's",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/bc16a847-2fbf-4bb9-a7fd-494495926362_254108.JPG",
+            "locality": "Sector 22",
+            "areaName": "Sector 22",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "American",
+                "Fast Food"
+            ],
+            "avgRating": 4.3,
+            "parentId": "630",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "15K+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
-              description: "Delivery!",
+            "availability": {
+                "nextCloseTime": "2025-06-10 00:45:00",
+                "opened": true
             },
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
-              description: "Delivery!",
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    }
+                ]
             },
-            {
-              imageId: "v1695133679/badges/Pure_Veg111.png",
-              description: "pureveg",
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Pure%20Veg.png",
-                  },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹91"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.3",
+                    "ratingCount": "5.6K+"
                 },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "pureveg",
-                    imageId: "v1695133679/badges/Pure_Veg111.png",
-                  },
-                },
-              ],
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "60% OFF",
-          subHeader: "UPTO ₹120",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/baithak-cafe-chowk-arya-nagar-rest128699",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/mcdonalds-sector-22-rest254108",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "129957",
-        name: "Om Restaurant",
-        cloudinaryImageId: "tmflocmfp4ljixkht1wr",
-        locality: "Jasbir Colony",
-        areaName: "Rohtak",
-        costForTwo: "₹200 for two",
-        cuisines: ["South Indian", "Beverages", "Chinese", "Pizzas", "Snacks"],
-        avgRating: 3.6,
-        veg: true,
-        parentId: "151677",
-        avgRatingString: "3.6",
-        totalRatingsString: "4.5K+",
-        sla: {
-          deliveryTime: 30,
-          lastMileTravel: 2.2,
-          serviceability: "SERVICEABLE",
-          slaString: "30-35 mins",
-          lastMileTravelString: "2.2 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:45:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "v1695133679/badges/Pure_Veg111.png",
-              description: "pureveg",
+        "info": {
+            "id": "294349",
+            "name": "NIC Ice Creams",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/22/751ef19b-627f-4082-876c-fdc8c5c64f31_294349.jpg",
+            "locality": "Sector 35C",
+            "areaName": "Hotel Himani",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.7,
+            "veg": true,
+            "parentId": "6249",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "5.0K+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "pureveg",
-                    imageId: "v1695133679/badges/Pure_Veg111.png",
-                  },
-                },
-              ],
+            "availability": {
+                "nextCloseTime": "2025-06-09 23:30:00",
+                "opened": true
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹148"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "₹125 OFF",
-          subHeader: "ABOVE ₹249",
-          discountTag: "FLAT DEAL",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/om-restaurant-jasbir-colony-rohtak-rest129957",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/nic-ice-creams-sector-35c-hotel-himani-rest294349",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "130801",
-        name: "Bunny's Kitchen",
-        cloudinaryImageId: "qfqynvs1menrmjp66zgm",
-        locality: "Chankyapuri",
-        areaName: "Sheila Bypass",
-        costForTwo: "₹200 for two",
-        cuisines: [
-          "Pizzas",
-          "Burgers",
-          "Italian",
-          "Beverages",
-          "Continental",
-          "Chinese",
-        ],
-        avgRating: 4,
-        veg: true,
-        parentId: "376280",
-        avgRatingString: "4.0",
-        totalRatingsString: "5.2K+",
-        sla: {
-          deliveryTime: 28,
-          lastMileTravel: 2.1,
-          serviceability: "SERVICEABLE",
-          slaString: "25-30 mins",
-          lastMileTravelString: "2.0 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "v1695133679/badges/Pure_Veg111.png",
-              description: "pureveg",
+        "info": {
+            "id": "786153",
+            "name": "Pizza Hut",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/9/b358ecef-3809-497b-80e2-bb3973a4d4a3_786153.JPG",
+            "locality": "SCO459-460",
+            "areaName": "Sector 35",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Pizzas"
+            ],
+            "avgRating": 4.2,
+            "parentId": "721",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "659",
+            "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "pureveg",
-                    imageId: "v1695133679/badges/Pure_Veg111.png",
-                  },
-                },
-              ],
+            "availability": {
+                "nextCloseTime": "2025-06-09 23:00:00",
+                "opened": true
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹59"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "ITEMS",
-          subHeader: "AT ₹114",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/bunnys-kitchen-chankyapuri-sheila-bypass-rest130801",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/pizza-hut-sco459-460-sector-35-rest786153",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "128791",
-        name: "Pizza Choice",
-        cloudinaryImageId: "xheysiet81o1h8zofhdm",
-        locality: "Jat College Road",
-        areaName: "Rohtak",
-        costForTwo: "₹150 for two",
-        cuisines: ["Pizzas", "Pastas", "Continental", "Desserts", "Salads"],
-        avgRating: 4,
-        parentId: "158448",
-        avgRatingString: "4.0",
-        totalRatingsString: "9.7K+",
-        sla: {
-          deliveryTime: 27,
-          lastMileTravel: 2.9,
-          serviceability: "SERVICEABLE",
-          slaString: "25-30 mins",
-          lastMileTravelString: "2.9 km",
-          iconType: "ICON_TYPE_EMPTY",
+        "info": {
+            "id": "359797",
+            "name": "Grameen Kulfi",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/16/e6b0c25a-0273-4643-9844-04a3e44f7073_359797.jpg",
+            "locality": "Sector 35C",
+            "areaName": "Hotel Himani",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.8,
+            "veg": true,
+            "parentId": "12175",
+            "avgRatingString": "4.8",
+            "totalRatingsString": "486",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-09 23:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        badges: {},
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {},
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        aggregatedDiscountInfoV3: {
-          header: "ITEMS",
-          subHeader: "AT ₹189",
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/pizza-choice-jat-college-road-rohtak-rest128791",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/grameen-kulfi-sector-35c-hotel-himani-rest359797",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "462282",
-        name: "Gulab Sweets and Restaurant",
-        cloudinaryImageId: "ufdkk4hduliv2cqnvqox",
-        locality: "Sheela Bypaas Chowk",
-        areaName: "Rohtak",
-        costForTwo: "₹200 for two",
-        cuisines: [
-          "Sweets",
-          "Desserts",
-          "Beverages",
-          "South Indian",
-          "Chinese",
-          "Street Food",
-          "North Indian",
-          "Burgers",
-          "Continental",
-        ],
-        avgRating: 4.4,
-        veg: true,
-        parentId: "91305",
-        avgRatingString: "4.4",
-        totalRatingsString: "9.3K+",
-        sla: {
-          deliveryTime: 25,
-          lastMileTravel: 2.4,
-          serviceability: "SERVICEABLE",
-          slaString: "20-25 mins",
-          lastMileTravelString: "2.4 km",
-          iconType: "ICON_TYPE_EMPTY",
+        "info": {
+            "id": "805211",
+            "name": "Olio - The Wood Fired Pizzeria",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/2/4937767c-1626-492e-add8-5f5eb9c58edf_805211.jpg",
+            "locality": "Chandigarh",
+            "areaName": "SECTOR 24",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Pizzas",
+                "Pastas",
+                "Italian",
+                "Fast Food",
+                "Snacks",
+                "Beverages",
+                "Desserts"
+            ],
+            "avgRating": 4.3,
+            "parentId": "11633",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1.2K+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-10 05:29:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹299"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Dosa.png",
-              description: "Delivery!",
-            },
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Mithai.png",
-              description: "Delivery!",
-            },
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Paneer.png",
-              description: "Delivery!",
-            },
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Pure%20Veg.png",
-              description: "Delivery!",
-            },
-            {
-              imageId: "Rxawards/_CATEGORY-Mithai.png",
-              description: "Delivery!",
-            },
-            {
-              imageId: "Rxawards/_CATEGORY-North%20Indian.png",
-              description: "Delivery!",
-            },
-            {
-              imageId: "v1695133679/badges/Pure_Veg111.png",
-              description: "pureveg",
-            },
-          ],
-        },
-        isOpen: true,
-        aggregatedDiscountInfoV2: {},
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Dosa.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Mithai.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Paneer.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Pure%20Veg.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Rxawards/_CATEGORY-Mithai.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Rxawards/_CATEGORY-North%20Indian.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "pureveg",
-                    imageId: "v1695133679/badges/Pure_Veg111.png",
-                  },
-                },
-              ],
-            },
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/gulab-sweets-and-restaurant-sheela-bypaas-chowk-rohtak-rest462282",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/olio-the-wood-fired-pizzeria-sector-24-rest805211",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "773321",
-        name: "Sheikh Chang Singh",
-        cloudinaryImageId: "0e6ca4f0209b7cf1ba231d25630db2a3",
-        locality: "Model Town",
-        areaName: "Medical Mod",
-        costForTwo: "₹450 for two",
-        cuisines: [
-          "Chinese",
-          "Arabian",
-          "Rolls & Wraps",
-          "Biryani",
-          "Snacks",
-          "Beverages",
-        ],
-        avgRating: 4.5,
-        parentId: "182697",
-        avgRatingString: "4.5",
-        totalRatingsString: "57",
-        sla: {
-          deliveryTime: 31,
-          lastMileTravel: 2.6,
-          serviceability: "SERVICEABLE",
-          slaString: "30-35 mins",
-          lastMileTravelString: "2.5 km",
-          iconType: "ICON_TYPE_EMPTY",
+        "info": {
+            "id": "675968",
+            "name": "Natural Ice Cream",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/21/17f72f69-d7b3-485c-aa59-a3a8d9720e0e_675968.jpg",
+            "locality": "Madhya Marg",
+            "areaName": "Sector 7A",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.8,
+            "veg": true,
+            "parentId": "2093",
+            "avgRatingString": "4.8",
+            "totalRatingsString": "880",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 3.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "3.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-10 00:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO ₹40"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        badges: {},
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {},
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        aggregatedDiscountInfoV3: {
-          header: "10% OFF",
-          subHeader: "UPTO ₹40",
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/sheikh-chang-singh-model-town-medical-mod-rest773321",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/natural-ice-cream-madhya-marg-sector-7a-rest675968",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "130799",
-        name: "Subway",
-        cloudinaryImageId:
-          "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/4/a47890a4-feb5-4290-a10f-abee335eb0a7_130799.JPG",
-        locality: "Dev Colony",
-        areaName: "Rohtak",
-        costForTwo: "₹350 for two",
-        cuisines: ["Healthy Food", "Salads", "Snacks", "Desserts", "Beverages"],
-        avgRating: 4.1,
-        parentId: "2",
-        avgRatingString: "4.1",
-        totalRatingsString: "1.2K+",
-        sla: {
-          deliveryTime: 19,
-          lastMileTravel: 2.7,
-          serviceability: "SERVICEABLE",
-          slaString: "15-20 mins",
-          lastMileTravelString: "2.7 km",
-          iconType: "ICON_TYPE_EMPTY",
+        "info": {
+            "id": "564025",
+            "name": "Bakingo",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/15/4a4a5de5-e751-4e36-a35e-45531c968a34_564025.jpg",
+            "locality": "round Floor SCO 37",
+            "areaName": "Sector 16",
+            "costForTwo": "₹299 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts",
+                "Beverages",
+                "Snacks"
+            ],
+            "avgRating": 4.7,
+            "parentId": "3818",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "6.0K+",
+            "sla": {
+                "deliveryTime": 16,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-10 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "ABOVE ₹3000",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        availability: {
-          nextCloseTime: "2024-10-12 23:00:00",
-          opened: true,
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        badges: {},
-        isOpen: true,
-        aggregatedDiscountInfoV2: {},
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {},
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/subway-dev-colony-rohtak-rest130799",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/bakingo-round-floor-sco-37-sector-16-rest564025",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "138431",
-        name: "Burger King",
-        cloudinaryImageId:
-          "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/5ade7aab-4263-4ea8-b04c-299e523d1ad8_138431.jpg",
-        locality: "Delhi Road",
-        areaName: "Model Town",
-        costForTwo: "₹250 for two",
-        cuisines: ["Burgers", "American"],
-        avgRating: 4.4,
-        parentId: "166",
-        avgRatingString: "4.4",
-        totalRatingsString: "10K+",
-        sla: {
-          deliveryTime: 24,
-          lastMileTravel: 2.6,
-          serviceability: "SERVICEABLE",
-          slaString: "20-25 mins",
-          lastMileTravelString: "2.5 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
-              description: "Delivery!",
+        "info": {
+            "id": "41175",
+            "name": "Taco Bell",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/7/40cb7b0e-86df-41b7-8dd5-0b8d26045ea4_41175.JPG",
+            "locality": "Chandigarh",
+            "areaName": "Sector 35",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Mexican",
+                "Fast Food",
+                "Snacks"
+            ],
+            "avgRating": 4.3,
+            "parentId": "1557",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "13K+",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              imageId: "Rxawards/_CATEGORY-Burger.png",
-              description: "Delivery!",
+            "availability": {
+                "nextCloseTime": "2025-06-10 03:00:00",
+                "opened": true
             },
-          ],
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹59"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
-                  },
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/taco-bell-sector-35-rest41175",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "478944",
+            "name": "Bikkgane Biryani",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/15/325dc977-8b3e-4cef-b9be-1c54e9e6464a_478944.jpg",
+            "locality": "Phase-1",
+            "areaName": "South Chd",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Biryani",
+                "Hyderabadi",
+                "Andhra",
+                "South Indian",
+                "Mughlai",
+                "Kebabs"
+            ],
+            "avgRating": 4.4,
+            "parentId": "5070",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "6.3K+",
+            "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 5.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "5.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-10 02:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Biryani.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹199"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/bikkgane-biryani-phase-1-south-chd-rest478944",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "221311",
+            "name": "The Good Bowl",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/15/7d71a041-e867-4f13-9ead-e96ebfc3ef97_221311.jpg",
+            "locality": "Railway Station Chandigarh",
+            "areaName": "East Chandigarh",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Biryani",
+                "North Indian",
+                "Pastas",
+                "Punjabi",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.5,
+            "parentId": "7918",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "4.3K+",
+            "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 1.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "1.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-09 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "15% OFF",
+                "subHeader": "ABOVE ₹1000",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/the-good-bowl-railway-station-east-chandigarh-rest221311",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "39978",
+            "name": "Sindhi Sweets",
+            "cloudinaryImageId": "ac3df9254bed073f249ea176ca62265e",
+            "locality": "Sector 17",
+            "areaName": "Sector 17",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Sweets",
+                "South Indian",
+                "Chinese",
+                "Chaat",
+                "Street Food",
+                "Continental",
+                "Italian",
+                "Bakery",
+                "Thalis",
+                "Beverages"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "4536",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "5.9K+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-09 22:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Mithai.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Mithai.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.0",
+                    "ratingCount": "12K+"
                 },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Rxawards/_CATEGORY-Burger.png",
-                  },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/sindhi-sweets-sector-17-rest39978",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "750589",
+            "name": "La Pino'z Pizza",
+            "cloudinaryImageId": "f44bc9708c514cd2dd6ae0d8b4677214",
+            "locality": "Sector 34",
+            "areaName": "Sector 34",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian",
+                "Pastas",
+                "Mexican",
+                "Desserts",
+                "Beverages",
+                "Snacks",
+                "Combos",
+                "Fast Food"
+            ],
+            "avgRating": 4.4,
+            "parentId": "4961",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "2.2K+",
+            "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-10 03:45:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹99"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.2",
+                    "ratingCount": "168"
                 },
-              ],
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "60% OFF",
-          subHeader: "UPTO ₹120",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/burger-king-delhi-road-model-town-rest138431",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/la-pinoz-pizza-sector-34-rest750589",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "254124",
-        name: "McDonald's",
-        cloudinaryImageId:
-          "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/14/a83c1111-926c-469b-a0cd-8ed07b1dc746_254124.JPG",
-        locality: "HR Rohtak",
-        areaName: "Rohtak",
-        costForTwo: "₹400 for two",
-        cuisines: ["American"],
-        avgRating: 4.5,
-        parentId: "630",
-        avgRatingString: "4.5",
-        totalRatingsString: "4.1K+",
-        sla: {
-          deliveryTime: 23,
-          lastMileTravel: 2.5,
-          serviceability: "SERVICEABLE",
-          slaString: "20-25 mins",
-          lastMileTravelString: "2.5 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
-              description: "Delivery!",
+        "info": {
+            "id": "42803",
+            "name": "Subway",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/b337c938-ebff-441c-9e81-74664fccc265_42803.JPG",
+            "locality": "Sector 22",
+            "areaName": "Sector 22",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "sandwich",
+                "Salads",
+                "wrap",
+                "Healthy Food"
+            ],
+            "avgRating": 4.4,
+            "parentId": "2",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "8.2K+",
+            "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              imageId: "Rxawards/_CATEGORY-Burger.png",
-              description: "Delivery!",
+            "availability": {
+                "nextCloseTime": "2025-06-09 23:58:00",
+                "opened": true
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Burger.png",
-                  },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.3",
+                    "ratingCount": "836"
                 },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Rxawards/_CATEGORY-Burger.png",
-                  },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/subway-sector-22-rest42803",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "48684",
+            "name": "Captain Sam's Pizza",
+            "cloudinaryImageId": "e1a0833bdc40ad1f6fe3185f102c9382",
+            "locality": "Sector 9",
+            "areaName": "Sector 9",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian",
+                "Beverages",
+                "Desserts",
+                "Fast Food",
+                "Snacks",
+                "Pastas",
+                "Sweets",
+                "Cakes & Pastries"
+            ],
+            "avgRating": 4,
+            "parentId": "382786",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "6.5K+",
+            "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-09 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹28"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.0",
+                    "ratingCount": "753"
                 },
-              ],
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "ITEMS",
-          subHeader: "AT ₹49",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/mcdonalds-hr-rohtak-rest254124",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/captain-sams-pizza-sector-9-rest48684",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "305737",
-        name: "7th Heaven",
-        cloudinaryImageId: "uuwqfngceacolwjjjfbu",
-        locality: "Dev Colony",
-        areaName: "Dev Colony",
-        costForTwo: "₹300 for two",
-        cuisines: [
-          "Bakery",
-          "Chinese",
-          "Beverages",
-          "Continental",
-          "Pizzas",
-          "Pastas",
-        ],
-        avgRating: 4.2,
-        veg: true,
-        parentId: "19",
-        avgRatingString: "4.2",
-        totalRatingsString: "438",
-        sla: {
-          deliveryTime: 19,
-          lastMileTravel: 2.7,
-          serviceability: "SERVICEABLE",
-          slaString: "15-20 mins",
-          lastMileTravelString: "2.7 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:00:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "v1695133679/badges/Pure_Veg111.png",
-              description: "pureveg",
+        "info": {
+            "id": "696998",
+            "name": "Cheesecake & co.",
+            "cloudinaryImageId": "b318c0b4bc2169550145ace1d6e791a2",
+            "locality": "Sector 86",
+            "areaName": "Sector 16",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "387417",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "863",
+            "sla": {
+                "deliveryTime": 16,
+                "lastMileTravel": 2.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15-20 mins",
+                "lastMileTravelString": "2.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-          ],
-        },
-        isOpen: true,
-        aggregatedDiscountInfoV2: {},
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "pureveg",
-                    imageId: "v1695133679/badges/Pure_Veg111.png",
-                  },
-                },
-              ],
+            "availability": {
+                "nextCloseTime": "2025-06-10 00:00:00",
+                "opened": true
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/7th-heaven-dev-colony-rest305737",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/cheesecake-and-co-sector-86-sector-16-rest696998",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "597866",
-        name: "Chicago Pizza",
-        cloudinaryImageId: "bwsfenhmky8ym3unok2o",
-        locality: "Rohtak",
-        areaName: "Rohtak",
-        costForTwo: "₹350 for two",
-        cuisines: ["Pizzas"],
-        avgRating: 3.4,
-        parentId: "60277",
-        avgRatingString: "3.4",
-        totalRatingsString: "149",
-        sla: {
-          deliveryTime: 32,
-          lastMileTravel: 3,
-          serviceability: "SERVICEABLE",
-          slaString: "30-35 mins",
-          lastMileTravelString: "3.0 km",
-          iconType: "ICON_TYPE_EMPTY",
+        "info": {
+            "id": "264693",
+            "name": "Domino's Pizza",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/5/d74f4962-96cb-45b0-b2be-068d7bae4bde_264693.JPG",
+            "locality": "Himalaya Marg",
+            "areaName": "Sector 22",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian",
+                "Pastas",
+                "Desserts"
+            ],
+            "avgRating": 4.5,
+            "parentId": "2456",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "4.6K+",
+            "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-06-09 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/bolt%206.png",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/bolt%206.png"
+                                }
+                            },
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹75"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        availability: {
-          nextCloseTime: "2024-10-12 22:30:00",
-          opened: true,
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        badges: {},
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {},
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        aggregatedDiscountInfoV3: {
-          header: "50% OFF",
-          subHeader: "UPTO ₹100",
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/chicago-pizza-rohtak-rest597866",
-        type: "WEBLINK",
-      },
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/dominos-pizza-himalaya-marg-sector-22-rest264693",
+            "type": "WEBLINK"
+        }
     },
     {
-      info: {
-        id: "128780",
-        name: "Pizza Wings",
-        cloudinaryImageId:
-          "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/26/ebdf270d-8e2b-43de-ae89-03bdfd6ece46_128780.JPG",
-        locality: "Chanakyapuri Sheela Bypass",
-        areaName: "Chankyapuri",
-        costForTwo: "₹300 for two",
-        cuisines: ["Pizzas", "Pastas", "Rolls & Wraps", "Italian", "Desserts"],
-        avgRating: 4.3,
-        parentId: "159048",
-        avgRatingString: "4.3",
-        totalRatingsString: "8.6K+",
-        sla: {
-          deliveryTime: 27,
-          lastMileTravel: 2.4,
-          serviceability: "SERVICEABLE",
-          slaString: "25-30 mins",
-          lastMileTravelString: "2.4 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
-              description: "Delivery!",
+        "info": {
+            "id": "882164",
+            "name": "Goila Butter Chicken",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/9/fe8de4ad-e64e-4e19-bab1-511104e77ddf_882164.jpg",
+            "locality": "Sector 30",
+            "areaName": "Sector 30",
+            "costForTwo": "₹600 for two",
+            "cuisines": [
+                "Biryani",
+                "Kebabs",
+                "Desserts"
+            ],
+            "avgRating": 4.2,
+            "parentId": "322587",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "286",
+            "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            {
-              imageId: "Rxawards/_CATEGORY-Pizza.png",
-              description: "Delivery!",
+            "availability": {
+                "nextCloseTime": "2025-06-10 02:00:00",
+                "opened": true
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Green%20Dot%20Awards/Best%20In%20Veg%20Pizza.png",
-                  },
-                },
-                {
-                  attributes: {
-                    description: "Delivery!",
-                    imageId: "Rxawards/_CATEGORY-Pizza.png",
-                  },
-                },
-              ],
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        aggregatedDiscountInfoV3: {
-          header: "ITEMS",
-          subHeader: "AT ₹89",
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/pizza-wings-chanakyapuri-sheela-bypass-chankyapuri-rest128780",
-        type: "WEBLINK",
-      },
-    },
-    {
-      info: {
-        id: "428294",
-        name: "Veer Ji Malai Chaap Wale",
-        cloudinaryImageId: "f3a885e92162ca89d2cd416e061dc02b",
-        locality: "Civil Road",
-        areaName: "Arya Nagar",
-        costForTwo: "₹250 for two",
-        cuisines: ["Fast Food", "Snacks", "Rolls & Wraps"],
-        avgRating: 4.1,
-        veg: true,
-        parentId: "12056",
-        avgRatingString: "4.1",
-        totalRatingsString: "2.1K+",
-        sla: {
-          deliveryTime: 18,
-          lastMileTravel: 0.1,
-          serviceability: "SERVICEABLE",
-          slaString: "15-20 mins",
-          lastMileTravelString: "0.1 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {},
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {},
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        aggregatedDiscountInfoV3: {
-          header: "₹125 OFF",
-          subHeader: "ABOVE ₹249",
-          discountTag: "FLAT DEAL",
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/veer-ji-malai-chaap-wale-civil-road-arya-nagar-rest428294",
-        type: "WEBLINK",
-      },
-    },
-    {
-      info: {
-        id: "799940",
-        name: "Grameen Kulfi",
-        cloudinaryImageId: "9222019938518b7ebe87fa1c2ae382e4",
-        locality: "3 Part Market",
-        areaName: "Sector 2",
-        costForTwo: "₹120 for two",
-        cuisines: ["Ice Cream", "Desserts"],
-        avgRating: 4.7,
-        veg: true,
-        parentId: "12175",
-        avgRatingString: "4.7",
-        totalRatingsString: "45",
-        sla: {
-          deliveryTime: 30,
-          lastMileTravel: 4.2,
-          serviceability: "SERVICEABLE",
-          slaString: "25-30 mins",
-          lastMileTravelString: "4.1 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {
-          imageBadges: [
-            {
-              imageId: "v1695133679/badges/Pure_Veg111.png",
-              description: "pureveg",
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-          ],
-        },
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {
-              badgeObject: [
-                {
-                  attributes: {
-                    description: "pureveg",
-                    imageId: "v1695133679/badges/Pure_Veg111.png",
-                  },
-                },
-              ],
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹199"
             },
-            textBased: {},
-            textExtendedBadges: {},
-          },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {},
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
         },
-        aggregatedDiscountInfoV3: {
-          header: "60% OFF",
-          subHeader: "UPTO ₹120",
+        "analytics": {
+            "context": "seo-data-040877cd-4ed4-4ed5-8a8f-ff837ebcd06b"
         },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/grameen-kulfi-3-part-market-sector-2-rest799940",
-        type: "WEBLINK",
-      },
-    },
-    {
-      info: {
-        id: "699708",
-        name: "Karim'S",
-        cloudinaryImageId: "7129bf5806738c125993fd9dd1419910",
-        locality: "Subhash Nagar",
-        areaName: "Rohtak City",
-        costForTwo: "₹300 for two",
-        cuisines: ["Mughlai", "Biryani", "Desserts", "Rolls & Wraps"],
-        avgRating: 4.2,
-        parentId: "1674",
-        avgRatingString: "4.2",
-        totalRatingsString: "61",
-        sla: {
-          deliveryTime: 27,
-          lastMileTravel: 1.7,
-          serviceability: "SERVICEABLE",
-          slaString: "25-30 mins",
-          lastMileTravelString: "1.7 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 23:59:00",
-          opened: true,
-        },
-        badges: {},
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {},
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        aggregatedDiscountInfoV3: {
-          header: "₹125 OFF",
-          subHeader: "ABOVE ₹499",
-          discountTag: "FLAT DEAL",
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/karims-subhash-nagar-rohtak-city-rest699708",
-        type: "WEBLINK",
-      },
-    },
-    {
-      info: {
-        id: "130298",
-        name: "Grill Masters",
-        cloudinaryImageId: "fb03af8f328180311d991a870607b6d0",
-        locality: "Subhash Nagar",
-        areaName: "D Park",
-        costForTwo: "₹250 for two",
-        cuisines: [
-          "Italian",
-          "Pizzas",
-          "Pastas",
-          "Continental",
-          "Beverages",
-          "South Indian",
-        ],
-        avgRating: 4.3,
-        parentId: "19537",
-        avgRatingString: "4.3",
-        totalRatingsString: "871",
-        sla: {
-          deliveryTime: 24,
-          lastMileTravel: 1.6,
-          serviceability: "SERVICEABLE",
-          slaString: "20-25 mins",
-          lastMileTravelString: "1.6 km",
-          iconType: "ICON_TYPE_EMPTY",
-        },
-        availability: {
-          nextCloseTime: "2024-10-12 22:30:00",
-          opened: true,
-        },
-        badges: {},
-        isOpen: true,
-        type: "F",
-        badgesV2: {
-          entityBadges: {
-            imageBased: {},
-            textBased: {},
-            textExtendedBadges: {},
-          },
-        },
-        aggregatedDiscountInfoV3: {
-          header: "10% OFF",
-          subHeader: "UPTO ₹40",
-        },
-        differentiatedUi: {
-          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-          differentiatedUiMediaDetails: {
-            lottie: {},
-            video: {},
-          },
-        },
-        reviewsSummary: {},
-        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-        restaurantOfferPresentationInfo: {},
-        externalRatings: {
-          aggregatedRating: {
-            rating: "--",
-          },
-        },
-        ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-      },
-      analytics: {
-        context: "seo-data-ec2876a7-a2d9-4358-a199-a9b2a65b0f7a",
-      },
-      cta: {
-        link: "https://www.swiggy.com/city/rohtak/grill-masters-subhash-nagar-d-park-rest130298",
-        type: "WEBLINK",
-      },
-    },
-  ];
-
-  export default resList;
+        "cta": {
+            "link": "https://www.swiggy.com/city/chandigarh/goila-butter-chicken-sector-30-rest882164",
+            "type": "WEBLINK"
+        }
+    }
+]

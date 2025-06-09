@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { FaSearch, FaArrowAltCircleRight } from "react-icons/fa";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import { resList } from "../utils/mockData";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -16,35 +17,21 @@ const Body = () => {
 
 
   const { loggedInUser, setUserName } = useContext(UserContext);
+  console.log(listOfRestaurants)
 
   useEffect(() => {
-    fetchData();
+    const uniqueRestaurantsMap = new Map();
+  resList.forEach((res) => {
+    uniqueRestaurantsMap.set(res.info.id, res);
+  });
+
+  const uniqueRestaurants = Array.from(uniqueRestaurantsMap.values());
+
+  setListOfRestaurants(uniqueRestaurants);
+  setFilteredRestaurant(uniqueRestaurants);
   }, []);
 
-  const fetchData = async () => {
-    const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.7333&lng=76.7794&page_type=DESKTOP_WEB_LISTING"
-    );
-
-    const json = await data.json();
-
-    const singleCityRestaurants = json?.data?.cards?.find(
-      (card) => card?.card?.card?.gridElements?.infoWithStyle?.restaurants
-    )?.card?.card?.gridElements?.infoWithStyle?.restaurants;
-
-    if (singleCityRestaurants) {
-      const uniqueRestaurantsMap = new Map();
-      singleCityRestaurants.forEach((res) => {
-        uniqueRestaurantsMap.set(res.info.id, res);
-      });
-
-      const uniqueRestaurants = Array.from(uniqueRestaurantsMap.values());
-
-      setListOfRestaurants(uniqueRestaurants);
-      setFilteredRestaurant(uniqueRestaurants);
-    }
-  };
-
+  
   const onlineStatus = useOnlineStatus();
   if (onlineStatus === false) {
     return (
