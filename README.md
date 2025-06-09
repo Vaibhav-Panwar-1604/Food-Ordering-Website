@@ -47,6 +47,8 @@ This website was made as part of my React learning journey. It features:
    ```bash
    git clone https://github.com/yourusername/food-delivery-react.git
    cd food-delivery-react
-npm install
-npm start
+   npm install
+   npm start
+
+
 
