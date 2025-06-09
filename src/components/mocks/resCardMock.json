@@ -1,0 +1,78 @@
+{
+    "id": "41298",
+    "name": "KFC",
+    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/0952e937-f7ad-4d0f-a369-168bfb3991d6_41298.JPG",
+    "locality": "Sector 34",
+    "areaName": "Sector 34",
+    "costForTwo": "₹400 for two",
+    "cuisines": [
+        "Burgers",
+        "Fast Food",
+        "Rolls & Wraps"
+    ],
+    "avgRating": 4.4,
+    "parentId": "547",
+    "avgRatingString": "4.4",
+    "totalRatingsString": "5.5K+",
+    "sla": {
+        "deliveryTime": 34,
+        "lastMileTravel": 1.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "30-35 mins",
+        "lastMileTravelString": "1.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+        "nextCloseTime": "2025-06-10 01:00:00",
+        "opened": true
+    },
+    "badges": {
+        "imageBadges": [
+            {
+                "imageId": "Rxawards/_CATEGORY-Burger.png",
+                "description": "Delivery!"
+            }
+        ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+        "entityBadges": {
+            "imageBased": {
+                "badgeObject": [
+                    {
+                        "attributes": {
+                            "description": "Delivery!",
+                            "imageId": "Rxawards/_CATEGORY-Burger.png"
+                        }
+                    }
+                ]
+            },
+            "textBased": {},
+            "textExtendedBadges": {}
+        }
+    },
+    "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹59"
+    },
+    "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+            "lottie": {},
+            "video": {}
+        }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {},
+    "externalRatings": {
+        "aggregatedRating": {
+            "rating": "4.3",
+            "ratingCount": "2.1K+"
+        },
+        "source": "GOOGLE",
+        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+    },
+    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+}
